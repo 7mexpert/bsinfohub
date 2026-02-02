@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billericay School Info Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>BS <span>Info</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#submit">Submit Info</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Share Info.<br>Earn Rewards.</h1>
+                <p>Help build the most comprehensive student database at Billericay School. Submit verified information and get paid for every unique contribution!</p>
+                <div class="cta-buttons">
+                    <a href="#submit" class="btn-primary">Submit Info Now</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number">£2,540</div>
+                    <div class="stat-label">Total Paid Out</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1,234</div>
+                    <div class="stat-label">Contributors</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8,947</div>
+                    <div class="stat-label">Info Submissions</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple steps to start earning</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>1. Register</h3>
+                    <p>Create your account with your school email and verify your identity.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h3>2. Submit Info</h3>
+                    <p>Share verified information about students, relationships, social presence, and more.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>3. Get Verified</h3>
+                    <p>Our team reviews submissions to ensure accuracy and prevent duplicates.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-pound-sign"></i>
+                    </div>
+                    <h3>4. Get Paid</h3>
+                    <p>Receive payments for every unique, verified piece of information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Information Categories</h2>
+                <p>What we're looking for</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Student Info</h3>
+                    <ul>
+                        <li>Year group and form</li>
+                        <li>Clubs and societies</li>
+                        <li>Interests and hobbies</li>
+                        <li>Contact info</li>
+                    </ul>
+                    <div class="reward-badge">£0.01 - £0.30</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Relationships</h3>
+                    <ul>
+                        <li>Friend groups</li>
+                        <li>Relationships</li>
+                        <li>Group chats</li>
+                        <li>Social circles</li>
+                    </ul>
+                    <div class="reward-badge">£0.15 - £1.00</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li>Instagram handles</li>
+                        <li>TikTok accounts</li>
+                        <li>Snapchat usernames</li>
+                        <li>Discord servers</li>
+                    </ul>
+                    <div class="reward-badge">£0.10 - £0.50</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Section -->
+    <section id="submit" class="submit">
+        <div class="container">
+            <div class="section-header">
+                <h2>Submit Information</h2>
+                <p>Ready to start earning? Fill out the form below</p>
+            </div>
+            <div class="submit-container">
+                <div class="airtable-form-container">
+                    <div class="airtable-embed-wrapper">
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/appYNswdeFjau4G4P/pagAjGyGjrm1YwnYX/form" frameborder="0" width="100%" height="600" style="background: transparent; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; box-shadow: var(--box-shadow);"></iframe>
+                    </div>
+                </div>
+                <div class="submit-info">
+                    <div class="info-box">
+                        <h3>Payment Information</h3>
+                        <p><strong>Payment Methods:</strong></p>
+                        <ul>
+                            <li>Cash</li>
+                            <li>Bank Transfer</li>
+                            <li>Gift Cards</li>
+                        </ul>
+                        <p><strong>Payment Schedule:</strong></p>
+                        <p>Payments are processed every Friday. Minimum payout is £1.00.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section id="leaderboard" class="leaderboard">
+        <div class="container">
+            <div class="section-header">
+                <h2>Top Contributors</h2>
+                <p>Our most valuable contributors this month</p>
+            </div>
+            <div class="leaderboard-container">
+                <div class="leaderboard-header">
+                    <div class="rank-header">Rank</div>
+                    <div class="name-header">Name</div>
+                    <div class="contributions-header">Contributions</div>
+                    <div class="earnings-header">Earnings</div>
+                </div>
+                <div class="leaderboard-body">
+                    <div class="leaderboard-row top-row">
+                        <div class="rank">1</div>
+                        <div class="name">Alex Johnson</div>
+                        <div class="contributions">156</div>
+                        <div class="earnings">£78.50</div>
+                    </div>
+                    <div class="leaderboard-row">
+                        <div class="rank">2</div>
+                        <div class="name">Sarah Wilson</div>
+                        <div class="contributions">123</div>
+                        <div class="earnings">£61.25</div>
+                    </div>
+                    <div class="leaderboard-row">
+                        <div class="rank">3</div>
+                        <div class="name">James Brown</div>
+                        <div class="contributions">98</div>
+                        <div class="earnings">£49.00</div>
+                    </div>
+                    <div class="leaderboard-row">
+                        <div class="rank">4</div>
+                        <div class="name">Emma Davis</div>
+                        <div class="contributions">87</div>
+                        <div class="earnings">£43.50</div>
+                    </div>
+                    <div class="leaderboard-row">
+                        <div class="rank">5</div>
+                        <div class="name">Michael Taylor</div>
+                        <div class="contributions">76</div>
+                        <div class="earnings">£38.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How much can I earn?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Earnings vary based on the type and value of information submitted. Most submissions earn between £0.05 and £1.00. High-value information like secret relationships and crushes can earn more.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I get paid?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Payments are processed every Friday via Cash, bank transfer, or gift cards. You can choose your preferred payment method in your account settings. Minimum payout is £1.00.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do you verify information?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our verification team cross-references submissions with existing data, checks for duplicates, and validates the accuracy of the information. Multiple submissions of the same information are tracked to prevent fraud.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I submit information about myself?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, you can submit information about yourself. This helps build a more complete database and you'll be compensated for verified personal information that adds value to our records.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BS <span>Info</span></h3>
+                    <p>Building the most comprehensive student database at Billericay School.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#submit">Submit Info</a></li>
+                        <li><a href="#leaderboard">Leaderboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="mailto:contact@rupertg.co.uk">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: contact@rupertg.co.uk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Billericay School Info Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
